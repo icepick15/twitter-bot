@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node", "express", "express-session"],
+    "typeRoots": ["./node_modules/@types", "./@types"]
+  },
+  "include": ["src", "types/**/*.d.ts", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
